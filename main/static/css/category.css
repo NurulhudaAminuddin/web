@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-}
+  }
 
 .footer {
     background-color: black;
@@ -16,6 +16,8 @@ html, body {
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 20px 45px;
+    margin-left: 0;
+    margin-right: auto;
     border: none;
     cursor: pointer;
 }

@@ -38,6 +38,9 @@ def signup(request):
 def login(request):
     return render(request, 'main/login.html')
 
+def category(request):
+    return render(request, 'main/category.html')
+
 def main(request):
     print("this is main page")
     
