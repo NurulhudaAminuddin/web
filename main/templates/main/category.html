@@ -2,14 +2,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="{% static 'css/category.css' %}">
-    <title>Category</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/category.css' %}">
+  <title>Category</title>
 </head>
 <body>
 
     <footer class="footer">
         <div class="footer-container">
-            <button class="footer-buttons">HOME</button>
+            <button class="footer-buttons" onclick="location.href='/main'">HOME</button>
             <button class="footer-buttons">USER</button>
             <button class="footer-buttons">ABOUT</button>
             <button class="footer-buttons">CONTACT</button>
@@ -20,11 +20,12 @@
     </div>
 
     <div class="category-topic">
-        <div class="topic">Gandcrab</div>
-        <div class="topic">Database</div>
-        <div class="topic">Digital Forensic</div>
-        <div class="topic">Blockchain</div>
-        <div class="topic">Cryptography</div>
+        <button class="topic-buttons" onclick="location.href='/main'">Gandcrab</button>
+        <button class="topic-buttons">Database</button>
+        <button class="topic-buttons">Digital Forensic</button>
+        <button class="topic-buttons">Blockchain</button>
+        <button class="topic-buttons">Cryptography</button>
+
     </div>
 
 </body>

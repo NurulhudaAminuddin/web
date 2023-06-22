@@ -95,8 +95,7 @@
     background-color: #ffffff;
     color: #333333;
     padding: 8px 16px;
-    border: 1px solid #333333;
-    border-radius: 3px;
+    border: none;
     cursor: pointer;
   }
   
